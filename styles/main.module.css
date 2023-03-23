@@ -1,0 +1,59 @@
+.main_board {
+  /* width: 80%;
+  background: gray;
+  position: relative;
+  margin: 100px auto 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  width: 80%;
+  margin: 10% auto;
+  height: auto;
+}
+
+.main_sec {
+  border: 2px solid #eee;
+  padding-left: 20%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 19px;
+  margin: 20px 40px;
+}
+
+.main_data {
+  height: auto;
+  font-size: 19px;
+  margin: 40px;
+}
+
+/* .re_btn {
+  display: inline-block;
+  height: 40px;
+} */
+
+.ic_box {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ic {
+  cursor: pointer;
+}
+
+.graph {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.newsboard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.goldCal {
+  margin-top: 10%;
+}

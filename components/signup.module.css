@@ -1,0 +1,69 @@
+.signupBoard {
+  width: 500px;
+  height: 500px;
+  background: #545455;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+  cursor: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupBoard > div {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.signupBoard > input {
+  width: 80%;
+  height: 30px;
+  padding-left: 20px;
+  margin-bottom: 10%;
+  background: #e3f6f5;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.signupBoard > button {
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 10%;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  background: #64c1db;
+}
+
+.signupBoard > button:hover {
+  background: #07a1cc;
+  color: #ffffff;
+}
+
+.signupBack {
+  background-color: rgba(77, 70, 70, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: auto;
+}
+
+.signupBtn {
+  cursor: pointer;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

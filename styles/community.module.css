@@ -1,0 +1,105 @@
+.comBoard {
+  width: 80vw;
+  height: 80vh;
+  border: 1px solid black;
+  margin: 10%;
+  background: #e3e3e3;
+  position: relative;
+}
+
+.comOption {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  right: 40px;
+  bottom: 100px;
+  background: grey;
+  z-index: 9;
+}
+
+.optionHe {
+  width: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.optionWi {
+  height: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.addOptionStyle {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -120%;
+  background: #a3de83;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.5s;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postBoard {
+  margin: 10% auto;
+  height: 100%;
+}
+
+.postBoardlist {
+  list-style: none;
+  margin-top: 20px;
+  border: none;
+  height: auto;
+  background-color: #eeebdd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBoardlist > span:first-child {
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+.postBoardlist > span:last-child {
+  cursor: pointer;
+  text-align: center;
+  background-color: #d1cec2;
+  width: 90px;
+}
+
+.postBoardlist:first-child {
+  margin-top: 0;
+}
+
+.pageNumSec {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pageNum {
+  cursor: pointer;
+  margin-right: 20px;
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+
+.pageNum:first-child {
+  border-left: 1px solid black;
+  padding-left: 20px;
+}

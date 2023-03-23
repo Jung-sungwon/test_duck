@@ -1,0 +1,118 @@
+.titleBoard {
+  padding-top: 20%;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  height: 100vh;
+  background-color: rgb(125, 180, 182);
+  color: #ffffff;
+}
+
+.middle {
+  height: 100vh;
+  background: url("/duck.png") no-repeat;
+  background-position-x: 50%;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100vw;
+  background-color: burlywood;
+  position: relative;
+  overflow: hidden;
+}
+
+.last {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: #dfd3c3;
+}
+
+.detailBoard {
+  border: 3px solid #ffffff;
+  background-color: #e0cfab;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  left: -20%;
+  height: 10%;
+  width: 30%;
+  transition: all 2s;
+  opacity: 0.8;
+  color: #05004e;
+}
+
+.detailBoard2 {
+  border: 3px solid #ffffff;
+  background-color: #e0cfab;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px;
+  position: absolute;
+  top: 60%;
+  right: -40%;
+  height: 10%;
+  width: 30%;
+  transition: all 2s;
+  opacity: 0.8;
+  color: #05004e;
+}
+
+.active {
+  left: 10%;
+}
+
+.active2 {
+  display: block;
+  right: 10%;
+}
+
+.lastInner {
+  background: url("https://cdn.pixabay.com/photo/2021/12/19/10/42/old-6880626__340.jpg")
+    no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 50%;
+  height: 50%;
+}
+
+.shadowBoard {
+  width: 100%;
+  height: 100%;
+  background: rgba(109, 107, 107, 0.6);
+  color: #ffffff;
+  padding: 10%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footerSec {
+  width: 100%;
+  height: 15%;
+
+  position: absolute;
+  bottom: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footerSec > span {
+  margin-right: 20px;
+  height: 100%;
+  width: 20%;
+  background: #ebcea2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 50%;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #343a32;
+}

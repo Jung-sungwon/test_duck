@@ -1,0 +1,15 @@
+.errBoard {
+  background: #363636;
+  width: 80vw;
+  height: 85vh;
+  margin: 10% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/sad.png");
+  background-size: contain;
+}
+
+.errBoard h1 {
+  color: white;
+}

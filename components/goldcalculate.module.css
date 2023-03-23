@@ -1,0 +1,46 @@
+.btn {
+  display: flex;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #eaf6f6;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.btn:hover {
+  background-color: #d8e4e4;
+}
+
+.cal_input {
+  width: 200px;
+  height: 40px;
+  background-color: #e0ffcd;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  margin-right: 30px;
+}
+
+.inputgroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  background-color: #e3e3e3;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.goldDes {
+  margin-bottom: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}

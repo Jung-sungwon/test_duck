@@ -1,0 +1,175 @@
+.topBoard {
+  /* position: absolute;
+  height: 100vh; */
+}
+
+.board {
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  width: 250px;
+  background: #263849;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.4s;
+  z-index: 99;
+}
+.board > div {
+  margin-bottom: 300px;
+}
+
+.board_none {
+  transition: 0.4s;
+  width: 0;
+  position: fixed;
+  background: #263849;
+  z-index: 1;
+  top: 0;
+  height: 100%;
+}
+
+.btn {
+  position: absolute;
+  top: 20px;
+  left: 105%;
+  cursor: pointer;
+  display: inline !important;
+  width: 40px;
+  height: 40px;
+}
+
+.btn div:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.btn div:nth-child(2) {
+  transform: rotate(135deg);
+}
+
+.btn div {
+  top: 15px;
+  border: 2px solid gray;
+  border-radius: 30%;
+  width: 40px;
+  position: absolute;
+}
+
+.burger {
+  margin-top: 20px;
+  width: 40px;
+  position: absolute;
+  cursor: pointer;
+  left: 20px;
+  z-index: 99;
+}
+
+.burgerBom {
+  width: 40px;
+  position: absolute;
+  cursor: pointer;
+  left: 20px;
+  z-index: 99;
+}
+
+.topnav {
+  height: 60px;
+  width: 100vw;
+  background-color: #c4c1e0;
+  position: fixed;
+  z-index: 800;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.userInfoSec {
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  display: flex;
+}
+
+.userInfoSec > div {
+  height: 30px;
+  width: 70px;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: auto;
+  background: #eaf6f6;
+}
+
+.userInfoSec > div:first-child {
+  margin-right: 40px;
+}
+
+.burgerBom div {
+  border: 2px solid gray;
+  border-radius: 30%;
+  width: 40px;
+}
+
+.burgerBom div:nth-child(1),
+.burgerBom div:nth-child(2) {
+  margin-bottom: 8px;
+}
+
+.burger div {
+  border: 2px solid gray;
+  border-radius: 30%;
+  width: 40px;
+}
+
+.burger div:nth-child(1),
+.burger div:nth-child(2) {
+  margin-bottom: 8px;
+}
+
+.sideMenu {
+  background-color: #41506b;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sideMenu:hover {
+  background: #323e53;
+}
+
+.sideMenu:nth-child(1),
+.sideMenu:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  .board {
+    width: 100%;
+  }
+
+  .btn {
+    left: 85%;
+  }
+
+  .board > div {
+    margin: auto 0;
+  }
+}
+
+.side_link {
+  text-decoration: none;
+}
+
+.myPage {
+  display: flex;
+  margin-right: 20px;
+}
+
+.myPage > section {
+  cursor: pointer;
+  color: #5e63b6;
+}

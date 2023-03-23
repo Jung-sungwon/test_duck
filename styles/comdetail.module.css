@@ -1,0 +1,99 @@
+.detailBoard {
+  height: 80vh;
+  width: 80vw;
+  background: #a6abd1;
+  margin: 10%;
+  position: relative;
+  border-radius: 5px;
+}
+
+.detailValue {
+  background: #e7e6e6;
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3%;
+  white-space: pre-wrap;
+  overflow: scroll;
+  border-radius: 5px;
+}
+
+.postInfo {
+  background-color: #e7eaf6;
+  position: absolute;
+  top: 50px;
+  left: 10%;
+  width: 80%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: auto 10px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.title {
+  padding-left: 20px;
+}
+
+.postName {
+  padding-right: 20px;
+  cursor: pointer;
+  color: #407088;
+  font-weight: bold;
+}
+
+.allBtn {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+}
+
+.listBtn {
+  margin-left: 10%;
+  background-color: #cadefc;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.updateBtn {
+  margin-left: 55%;
+  margin-right: 10%;
+  background-color: #cadefc;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.delBtn {
+  margin-right: 10%;
+  background-color: #cadefc;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.listBtn:hover {
+  background-color: #adbfda;
+}
+
+.updateBtn:hover {
+  background-color: #adbfda;
+}
+
+.delBtn:hover {
+  background-color: #adbfda;
+}

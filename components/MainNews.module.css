@@ -1,0 +1,22 @@
+.mainList {
+  list-style: none;
+  text-align: center;
+}
+
+.mainList a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  display: inline-block;
+  border-bottom: 2px dotted black;
+}
+
+.add {
+  margin: 50px 0 0 80%;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}

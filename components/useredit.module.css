@@ -1,0 +1,180 @@
+.editBoard {
+  width: 60vw;
+  height: 70vh;
+  background: rgb(152, 178, 228);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.modalExit {
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 5px;
+}
+
+.infoSec {
+  width: 90%;
+  height: 80%;
+  background: whitesmoke;
+  margin: auto;
+  margin-top: 5%;
+  overflow: scroll;
+}
+
+.userTable {
+  margin-bottom: 30px;
+  background: #dfebed;
+  width: 100%;
+  border-spacing: 0;
+  min-height: 100px;
+  border-collapse: collapse;
+}
+
+.tableDiv {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  background: #bcdbdf;
+  color: #74736c;
+  font-weight: bold;
+  line-height: 40px;
+  width: 100%;
+}
+
+.userMail {
+  width: 60%;
+  padding-left: 2%;
+}
+
+.userRole {
+  width: 40%;
+  padding-left: 2%;
+  background: #e6e6e6;
+  cursor: pointer;
+}
+
+.editModalBoard {
+  border-radius: 5px;
+  background: #588d9c;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.editModalSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.editModalSec > span {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* .editModalSec > select {
+  margin-bottom: 5%;
+  width: 80%;
+  height: 25px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+} */
+
+.editModalSec > button {
+  height: 25px;
+  cursor: pointer;
+  background: #ff9a3c;
+  border: none;
+  width: 80%;
+}
+
+.editModalSec > button:hover {
+  background: #df8028;
+}
+
+.editModalTitle {
+  margin: 5% auto;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.userDelete {
+  position: absolute;
+  width: 120%;
+  height: 50%;
+  background: grey;
+  top: 50%;
+  right: -70%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.userDelete > section {
+  margin-top: 20px;
+}
+
+.userDelete > section > button:first-child {
+  margin-right: 15px;
+}
+
+.userDelete > section > button {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  background: #acc6aa;
+  border: none;
+}
+
+.userDelete > section > button:hover {
+  background: #81997f;
+}
+
+#roleSelect {
+  color: #f6eedf;
+  background: #757a79;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#roleSelect:hover {
+  background: #f6eedf;
+  color: #757a79;
+}
+
+#roleSelect:first-child {
+  margin-right: 20px;
+}
+
+.roleBoard {
+  display: flex;
+}
+
+.userList {
+  text-align: center;
+  line-height: 40px;
+  color: #214b47;
+}

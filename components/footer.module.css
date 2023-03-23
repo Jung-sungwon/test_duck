@@ -1,0 +1,25 @@
+.foot_board {
+  width: 100%;
+  height: 300px;
+  background: black;
+  position: relative;
+  bottom: 0;
+}
+
+.foot_main {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.footerDetail {
+  color: #ffffff;
+  position: absolute;
+
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+}
